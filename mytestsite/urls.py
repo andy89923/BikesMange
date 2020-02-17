@@ -27,6 +27,8 @@ urlpatterns = [
 	url(r'^hello/', hello_view),
 	url(r'listall/', list_all),
 	url(r'', list_all),
+
+    url(r"post/", post)
 ]
 
 

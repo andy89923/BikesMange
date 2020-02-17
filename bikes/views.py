@@ -14,4 +14,10 @@ def list_all(request):
 	
 	return render(request, 'listall.html', locals())
 
-	
+def post(request):
+	if request.method == "POST":
+		mess = request.POST
+	else
+		mess = "Not send yet."
+
+	return render(request, "post.html", locals())
