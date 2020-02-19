@@ -31,4 +31,3 @@ urlpatterns = [
     url(r"post/", post)
 ]
 
-
