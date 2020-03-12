@@ -18,6 +18,7 @@ from django.urls import path
 from django.conf.urls import url
 from bikes.views import hello_view
 from bikes.views import list_all
+from bikes.views import post
 
 handler404 = "mytestsite.views.error_views.view_404"
 handler500 = "mytestsite.views.error_views.view_500"
